@@ -114,8 +114,8 @@
                       <div style="display: flex; align-items: center; justify-content: center;"><img class="img-fluid" src="assets/service/document.png" alt="" style="height: 50%; width: 50%;"></div>
                     </a>
                     <div class="portfolio-caption">
-                      <h4>Forms</h4>
-                      <p class="text-muted">Admin Link(s)</p>
+                      <h4>Admin Link(s)</h4>
+                      <p class="text-muted">Access points for administrative functions.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
