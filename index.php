@@ -105,7 +105,7 @@
                     </div>
                 </div>            
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a class="portfolio-link"  target = "_blank" href="https://nedasapasig-my.sharepoint.com/_forms/default.aspx">
+                    <a class="portfolio-link"  target = "_blank" href="https://nedasapasig-my.sharepoint.com/personal/rndejesus_neda_gov_ph/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frndejesus_neda_gov_ph%2FDocuments%2F.HR-RSNDJ-AAII%2FNEDA%2FForms%2FFORMS%20WEBSITE&ga=1&fbclid=IwAR0dFEB76TcuBIKEX9WkISxcuTGS1mWjhryie57Xw28otJxgmmDwaa4vW6Q">
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                           
@@ -114,8 +114,8 @@
                       <div style="display: flex; align-items: center; justify-content: center;"><img class="img-fluid" src="assets/service/document.png" alt="" style="height: 50%; width: 50%;"></div>
                     </a>
                     <div class="portfolio-caption">
-                      <h4>Forms</h4>
-                      <p class="text-muted">Download the Government Document</p>
+                      <h4>FAD FORMS</h4>
+                      <p class="text-muted">Access points for administrative functions.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -125,11 +125,26 @@
                         
                         </div>
                     </div>
-                    <div style="display: flex; align-items: center; justify-content: center;"><img class="img-fluid" src="assets/service/qms.png" alt="" style="height: 50%; width: 50%;"></div>
+                    <div style="display: flex; align-items: center; justify-content: center;"><img class="img-fluid" src="assets/service/eDTRNew.png" alt="" style="height: 50%; width: 50%;"></div>
                   </a>
                   <div class="portfolio-caption">
                     <h4>Quality Management System</h4>
                     <p class="text-muted">Ensuring quality standards are met.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a class="portfolio-link"  target = "_blank" href="https://nro3.neda.gov.ph/">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                        
+                        </div>
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: center;"><img class="img-fluid" src="assets/service/qms.png" alt="" style="height: 50%; width: 50%;"></div>
+                  </a>
+                  <div class="portfolio-caption">
+                    <h4>NRO3 Website</h4>
+                    <p class="text-muted">Link to nro3.neda.gov.ph</p>
                   </div>
                 </div>
 
