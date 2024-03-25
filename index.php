@@ -90,7 +90,8 @@
                       <p class="text-muted">Electronic Daily Time Record</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('erpmes-nro3.neda.gov.ph/')">
+
+                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewLink('https://erpmes-nro3.neda.gov.ph/')">
                     <a class="portfolio-link"  target = "_blank" href="https://erpmes-nro3.neda.gov.ph/">
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
@@ -103,8 +104,9 @@
                       <h4>eRPMES</h4>
                       <p class="text-muted">Electronic Regional Project Monitoring and Evaluation System</p>
                     </div>
-                </div>            
-                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('nedasapasig.sharepoint.com/:f:/s/nro3-ictunit/Em68v_nm15hBixUVpbGIB60BLINOhFckpuwssUmHiMQqrg?e=m66RGz')">
+                </div>        
+
+                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewLink('https://nedasapasig.sharepoint.com/:f:/s/nro3-ictunit/Em68v_nm15hBixUVpbGIB60BLINOhFckpuwssUmHiMQqrg?e=m66RGz')">
                     <a class="portfolio-link"  target = "_blank" href="https://nedasapasig.sharepoint.com/:f:/s/nro3-ictunit/Em68v_nm15hBixUVpbGIB60BLINOhFckpuwssUmHiMQqrg?e=m66RGz">
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
@@ -117,8 +119,9 @@
                       <h4>Administrative Forms</h4>
                       <p class="text-muted">Download blank administrative forms</p>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('nedasapasig-my.sharepoint.com/personal/ebpurzuelo_neda_gov_ph/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF%2F1%5FNEDA%203%20QMS%20Table%20of%20Contents%2Epdf&parent=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF&ga=1')">
+                </div> 
+
+                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewLink('https://nedasapasig-my.sharepoint.com/personal/ebpurzuelo_neda_gov_ph/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF%2F1%5FNEDA%203%20QMS%20Table%20of%20Contents%2Epdf&parent=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF&ga=1')">
                   <a class="portfolio-link"  target = "_blank" href="https://nedasapasig-my.sharepoint.com/personal/ebpurzuelo_neda_gov_ph/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF%2F1%5FNEDA%203%20QMS%20Table%20of%20Contents%2Epdf&parent=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF&ga=1">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -131,8 +134,9 @@
                     <h4>Quality Management System</h4>
                     <p class="text-muted">Ensuring quality standards are met.</p>
                   </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('nro3.neda.gov.ph/')">
+                </div>  
+                
+                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewLink('https://nro3.neda.gov.ph/')">
                   <a class="portfolio-link"  target = "_blank" href="https://nro3.neda.gov.ph/">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -147,6 +151,7 @@
                     <p class="text-muted">Link to nro3.neda.gov.ph</p>
                   </div>
                 </div>
+ 
 
             </div>
 
@@ -266,6 +271,15 @@
   <!-- Footer -->
 
   <script>
+    function openNewTab(url) {
+      window.open(url, '_blank');
+    }
+    function openNewLink(url) {
+      var a = document.createElement('a');
+      a.href = url;
+      a.target = '_blank';
+      a.click();
+    }
     		// build scenes
 		var revealElements = document.getElementsByClassName("portfolio-item");
 		for (var i=0; i<revealElements.length; i++) { // create a scene for each element
