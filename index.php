@@ -60,9 +60,9 @@
 
             <div class="row border d-flex flex-wrap justify-content-start p-2">
 
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('./LOGBOOK/')">
                     <!-- <a class="portfolio-link"  target = "_blank" href="http://172.16.114.3/LOGBOOK/"> -->
-                    <a class="portfolio-link"  target = "_blank" href="./LOGBOOK/">
+                    <a class="portfolio-link" target = "_blank" href="./LOGBOOK/">
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                           
@@ -75,7 +75,7 @@
                       <p class="text-muted">Electronic Logbook</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('./PERSONNEL/')">
                     <!-- <a class="portfolio-link"  target = "_blank" href="http://172.16.114.3/PERSONNEL/"> -->
                     <a class="portfolio-link"  target = "_blank" href="./PERSONNEL/">
                       <div class="portfolio-hover">
@@ -90,7 +90,7 @@
                       <p class="text-muted">Electronic Daily Time Record</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('erpmes-nro3.neda.gov.ph/')">
                     <a class="portfolio-link"  target = "_blank" href="https://erpmes-nro3.neda.gov.ph/">
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
@@ -104,8 +104,8 @@
                       <p class="text-muted">Electronic Regional Project Monitoring and Evaluation System</p>
                     </div>
                 </div>            
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a class="portfolio-link"  target = "_blank" href="https://nedasapasig-my.sharepoint.com/personal/rndejesus_neda_gov_ph/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Frndejesus_neda_gov_ph%2FDocuments%2F.HR-RSNDJ-AAII%2FNEDA%2FForms%2FFORMS%20WEBSITE&ga=1&fbclid=IwAR0dFEB76TcuBIKEX9WkISxcuTGS1mWjhryie57Xw28otJxgmmDwaa4vW6Q">
+                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('nedasapasig.sharepoint.com/:f:/s/nro3-ictunit/Em68v_nm15hBixUVpbGIB60BLINOhFckpuwssUmHiMQqrg?e=m66RGz')">
+                    <a class="portfolio-link"  target = "_blank" href="https://nedasapasig.sharepoint.com/:f:/s/nro3-ictunit/Em68v_nm15hBixUVpbGIB60BLINOhFckpuwssUmHiMQqrg?e=m66RGz">
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                           
@@ -114,11 +114,11 @@
                       <div style="display: flex; align-items: center; justify-content: center;"><img class="img-fluid" src="assets/service/document.png" alt="" style="height: 50%; width: 50%;"></div>
                     </a>
                     <div class="portfolio-caption">
-                      <h4>FAD FORMS</h4>
-                      <p class="text-muted">Download the Government Document</p>
+                      <h4>Administrative Forms</h4>
+                      <p class="text-muted">Download blank administrative forms</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('nedasapasig-my.sharepoint.com/personal/ebpurzuelo_neda_gov_ph/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF%2F1%5FNEDA%203%20QMS%20Table%20of%20Contents%2Epdf&parent=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF&ga=1')">
                   <a class="portfolio-link"  target = "_blank" href="https://nedasapasig-my.sharepoint.com/personal/ebpurzuelo_neda_gov_ph/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF%2F1%5FNEDA%203%20QMS%20Table%20of%20Contents%2Epdf&parent=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF&ga=1">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -132,8 +132,7 @@
                     <p class="text-muted">Ensuring quality standards are met.</p>
                   </div>
                 </div>
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('nro3.neda.gov.ph/')">
                   <a class="portfolio-link"  target = "_blank" href="https://nro3.neda.gov.ph/">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
