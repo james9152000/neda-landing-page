@@ -1,7 +1,7 @@
 NEDA REGION 3 Landing Page
 
-Description
-This project is a landing page for a government department. It serves as a central hub for accessing various useful links and resources such as the Daily Time Record (DTR), Electronic Logbook, Quality Management System (QMS), and other important links.
+Description:
+This project is a landing page for NEDA REGION 3. It serves as a central hub for accessing various useful links and resources such as the Daily Time Record (DTR), Electronic Logbook, Quality Management System (QMS), and other important links.
 
 Table of Contents
 Installation
