@@ -61,8 +61,7 @@
             <div class="row border d-flex flex-wrap justify-content-start p-2">
 
                 <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('./LOGBOOK/')">
-                    <!-- <a class="portfolio-link"  target = "_blank" href="http://172.16.114.3/LOGBOOK/"> -->
-                    <a class="portfolio-link" target = "_blank" href="./LOGBOOK/">
+                    <a class="portfolio-link">
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                           
@@ -76,8 +75,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewTab('./PERSONNEL/')">
-                    <!-- <a class="portfolio-link"  target = "_blank" href="http://172.16.114.3/PERSONNEL/"> -->
-                    <a class="portfolio-link"  target = "_blank" href="./PERSONNEL/">
+                    <a class="portfolio-link">
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                           
@@ -92,7 +90,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewLink('https://erpmes-nro3.neda.gov.ph/')">
-                    <a class="portfolio-link"  target = "_blank" href="https://erpmes-nro3.neda.gov.ph/">
+                    <a class="portfolio-link">
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                           
@@ -107,7 +105,7 @@
                 </div>        
 
                 <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewLink('https://nedasapasig.sharepoint.com/:f:/s/nro3-ictunit/Em68v_nm15hBixUVpbGIB60BLINOhFckpuwssUmHiMQqrg?e=m66RGz')">
-                    <a class="portfolio-link"  target = "_blank" href="https://nedasapasig.sharepoint.com/:f:/s/nro3-ictunit/Em68v_nm15hBixUVpbGIB60BLINOhFckpuwssUmHiMQqrg?e=m66RGz">
+                    <a class="portfolio-link">
                       <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                           
@@ -122,7 +120,7 @@
                 </div> 
 
                 <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewLink('https://nedasapasig-my.sharepoint.com/personal/ebpurzuelo_neda_gov_ph/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF%2F1%5FNEDA%203%20QMS%20Table%20of%20Contents%2Epdf&parent=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF&ga=1')">
-                  <a class="portfolio-link"  target = "_blank" href="https://nedasapasig-my.sharepoint.com/personal/ebpurzuelo_neda_gov_ph/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF%2F1%5FNEDA%203%20QMS%20Table%20of%20Contents%2Epdf&parent=%2Fpersonal%2Febpurzuelo%5Fneda%5Fgov%5Fph%2FDocuments%2FDocuments%2F3%2E%20Document%20Control%2FQMS%5FPDF&ga=1">
+                  <a class="portfolio-link">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                         
@@ -137,7 +135,7 @@
                 </div>  
                 
                 <div class="col-md-4 col-sm-6 portfolio-item" onclick="openNewLink('https://nro3.neda.gov.ph/')">
-                  <a class="portfolio-link"  target = "_blank" href="https://nro3.neda.gov.ph/">
+                  <a class="portfolio-link">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                         
